@@ -38,7 +38,7 @@ const Details = ({
 				<Form bet={bet} setModalActive={setModalActive} setBet={setBet} />
 				<button
 					className='button block-item'
-					onClick={() => navigate('/sportsBets/')}
+					onClick={() => navigate('/sportsbets/')}
 				>
 					Вернуться назад
 				</button>

@@ -19,7 +19,7 @@ const Home = ({ match, setMatch, modalActive, setModalActive, bet }) => {
 
 	const changeMatch = item => {
 		setMatch(item)
-		navigate(`/sportsBets/${item.id}`)
+		navigate(`/sportsbets/${item.id}`)
 	}
 
 	return (

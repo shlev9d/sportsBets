@@ -2,7 +2,7 @@
   "name": "sportbets",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://shlev9d.github.io/sportsBets/",
+  "homepage": "https://shlev9d.github.io/sportsbets/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

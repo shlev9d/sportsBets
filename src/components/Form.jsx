@@ -11,7 +11,7 @@ const Form = ({bet, setBet, setModalActive}) => {
     	const sendBet = e => {
 				e.preventDefault()
 				setModalActive(true)
-				navigate('/sportsBets/')
+				navigate('/sportsbets/')
 			}
   return (
 		<form action='#' id='selectMatch' className='form'>
