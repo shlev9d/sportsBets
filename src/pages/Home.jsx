@@ -8,6 +8,8 @@ import '../style.css'
 
 const Home = ({ match, setMatch, modalActive, setModalActive, bet }) => {
 	useEffect(() => {
+		document.title = `Ставки на спорт`
+
 		setTimeout(() => {
 			setModalActive(false)
 		}, 3000)
@@ -17,7 +19,7 @@ const Home = ({ match, setMatch, modalActive, setModalActive, bet }) => {
 
 	const changeMatch = item => {
 		setMatch(item)
-		navigate(`/${item.id}`)
+		navigate(`/sportsBets/${item.id}`)
 	}
 
 	return (

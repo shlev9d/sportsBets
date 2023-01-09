@@ -35,8 +35,11 @@ const Details = ({
 					<span>{date}</span>
 					<span>{time}</span>
 				</div>
-				<Form bet={bet} setModalActive={setModalActive} setBet={setBet}/>
-				<button className='button block-item' onClick={() => navigate('/')}>
+				<Form bet={bet} setModalActive={setModalActive} setBet={setBet} />
+				<button
+					className='button block-item'
+					onClick={() => navigate('/sportsBets/')}
+				>
 					Вернуться назад
 				</button>
 			</div>

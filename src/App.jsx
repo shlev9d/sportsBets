@@ -13,7 +13,7 @@ function App() {
 		<div className='App'>
 			<Routes>
 				<Route
-					path=''
+					path='/sportsBets/'
 					element={
 						<Home
 							match={match}
@@ -25,13 +25,13 @@ function App() {
 					}
 				/>
 				<Route
-					path={`${match.id}`}
+					path={`/sportsBets/${match.id}`}
 					element={
 						<Details
 							{...match}
 							setModalActive={setModalActive}
 							setBet={setBet}
-              bet={bet}
+							bet={bet}
 						/>
 					}
 				/>
