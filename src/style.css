@@ -1,5 +1,5 @@
 /* header*/
-.header {
+header {
 	margin-bottom: 20px;
 	color: rgb(255, 255, 255);
 }
@@ -8,16 +8,16 @@
 
 
 /*footer */
-.link {
+footer {
 	display: flex;
 	column-gap: 10px;
 }
 
-.link a {
+footer a {
 	color: #fff;
 }
 
-.link a:hover {
+footer a:hover {
 	color: rgb(227, 196, 154);
 }
 /*------------*/
@@ -98,6 +98,10 @@
 
 
 /*details page */
+.no-match{
+	margin-bottom: 20px;
+}
+
 .content {
 	height: 100%;
 	display: flex;
@@ -204,7 +208,7 @@
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0, 0, 0, 0.8);
+	background-color: rgba(0, 0, 0, 0.9);
 }
 
 .modal {

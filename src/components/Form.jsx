@@ -25,7 +25,7 @@ const Form = ({bet, setBet, setModalActive}) => {
 						value={'на победу хозяев'}
 						onChange={e => changeBet(e)}
 					/>
-					<label className='block-item' for='input1'>
+					<label className='block-item' htmlFor='input1'>
 						на победу хозяев
 					</label>
 				</div>
@@ -37,7 +37,7 @@ const Form = ({bet, setBet, setModalActive}) => {
 						onChange={e => changeBet(e)}
 						id='input2'
 					/>
-					<label className='block-item' for='input2'>
+					<label className='block-item' htmlFor='input2'>
 						на ничью
 					</label>
 				</div>
@@ -49,7 +49,7 @@ const Form = ({bet, setBet, setModalActive}) => {
 						value={'на победу гостей'}
 						onChange={e => changeBet(e)}
 					/>
-					<label className='block-item' for='input3'>
+					<label className='block-item' htmlFor='input3'>
 						на победу гостей
 					</label>
 				</div>

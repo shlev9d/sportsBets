@@ -1,6 +1,8 @@
 import React from 'react'
 
-const Modal = ({ firstteam, secondteam, bet, date, time }) => {
+const Modal = ({ firstteam, secondteam, bet, date, time}) => {
+
+	
 	return (
 		<div className='modal-bg'>
 			<div className='modal'>

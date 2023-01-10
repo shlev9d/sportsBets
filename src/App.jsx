@@ -25,10 +25,9 @@ function App() {
 					}
 				/>
 				<Route
-					path={`/sportsbets/${match.id}`}
+					path={`/sportsbets/:id`}
 					element={
 						<Details
-							{...match}
 							setModalActive={setModalActive}
 							setBet={setBet}
 							bet={bet}

@@ -4,7 +4,7 @@ import { FiLinkedin } from 'react-icons/fi'
 
 const Footer = () => {
 	return (
-		<div className='link'>
+		<footer>
 			<a
 				href='https://github.com/shlev9d/sportsbets'
 				target={'_blank'}
@@ -19,7 +19,7 @@ const Footer = () => {
 			>
 				<FiLinkedin />
 			</a>
-		</div>
+		</footer>
 	)
 }
 

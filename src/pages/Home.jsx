@@ -10,9 +10,10 @@ const Home = ({ match, setMatch, modalActive, setModalActive, bet }) => {
 	useEffect(() => {
 		document.title = `Ставки на спорт`
 
-		setTimeout(() => {
+		const timeout = setTimeout(() => {
 			setModalActive(false)
-		}, 3000)
+		}, 2000)
+		return () => clearTimeout(timeout)
 	}, [modalActive, setModalActive])
 
 	const navigate = useNavigate()

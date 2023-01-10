@@ -3,9 +3,9 @@ import '../style.css'
 
 const Header = () => {
 	return (
-		<div className='header'>
+		<header>
 			<h1>Ставки на спорт</h1>
-		</div>
+		</header>
 	)
 }
 
