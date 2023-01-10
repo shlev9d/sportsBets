@@ -6,7 +6,8 @@
 
 ReactJS, react-router-dom, react-icon
 
-##download this repository to your computer
+##
+download this repository to your computer
 
 In the project directory, you can run:
 
