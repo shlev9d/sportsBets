@@ -27,7 +27,7 @@ const Home = ({ match, setMatch, modalActive, setModalActive, bet }) => {
 		<div className='container'>
 			{modalActive && <Modal {...match} bet={bet} />}
 			<Header />
-			<div className='matches'>
+			<article className='matches'>
 				{data.map(item => (
 					<div
 						key={item.id}
@@ -40,7 +40,7 @@ const Home = ({ match, setMatch, modalActive, setModalActive, bet }) => {
 						<div className='details'>Подробнее</div>
 					</div>
 				))}
-			</div>
+			</article>
 			<Footer />
 		</div>
 	)
