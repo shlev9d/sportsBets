@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sportsbets/static/css/main.cd293a0a.css",
+    "main.js": "/sportsbets/static/js/main.ffdac0b3.js",
+    "index.html": "/sportsbets/index.html",
+    "main.cd293a0a.css.map": "/sportsbets/static/css/main.cd293a0a.css.map",
+    "main.ffdac0b3.js.map": "/sportsbets/static/js/main.ffdac0b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd293a0a.css",
+    "static/js/main.ffdac0b3.js"
+  ]
+}
